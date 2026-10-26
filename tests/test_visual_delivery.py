@@ -19,9 +19,9 @@ from playwright.sync_api import Error, sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 RESULTS = ROOT / "test-results"
-PUBLIC_URL = "https://adamiko69.github.io/yarden-landing-page/"
+PUBLIC_URL = "https://yarden-raz.github.io/clinic/"
 PUBLIC_IMAGE = PUBLIC_URL + "assets/social-preview.jpg"
-SITE_PATH = "/yarden-landing-page/"
+SITE_PATH = "/clinic/"
 
 
 class DeploymentPathHandler(SimpleHTTPRequestHandler):
